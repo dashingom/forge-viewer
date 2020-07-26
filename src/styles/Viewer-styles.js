@@ -1,4 +1,4 @@
-export default styles = theme => ({
+export default theme => ({
   root: {
     flexDirection: "row",
     height: "100%",
@@ -40,4 +40,4 @@ export default styles = theme => ({
       width: "5ch"
     }
   }
-}));
+});

@@ -1,6 +1,6 @@
-import Looks3Icon from "@material-ui/icons/Looks3";
-
 const Autodesk = window.Autodesk;
+const THREE = window.THREE;
+
 export class HandleSelectionExtension extends Autodesk.Viewing.Extension {
   constructor(viewer, options) {
     super(viewer, options);
