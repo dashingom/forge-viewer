@@ -16,7 +16,6 @@ export class HandleSelectionExtension extends Autodesk.Viewing.Extension {
 
   load() {
     console.log("HandleSelectionExtension has been loaded");
-    this.onToolbarCreated();
     return true;
   }
 
